@@ -1,0 +1,236 @@
+{
+    "nodes":[
+       {
+          "id":0,
+          "name":"«Эколайн-Владимир»",
+          "text":"Владеет землей под свалкой в Александрове",
+          "type":"company",
+          "img":"icons/svg/ekolain-voskresensk.svg"
+       
+ },
+       {
+          "id":1,
+          "name":"«Эколайн»",
+          "text":"Вывозит мусор из Москвы",
+          "type":"company",
+          "img":"icons/svg/ekolain.svg"
+       
+ },
+       {
+          "id":2,
+          "name":"«Лига-Транс»",
+          "text":"Компания из Москвы",
+          "type":"company",
+          "img":"icons/svg/firm.svg"
+       
+ },
+       {
+          "id":3,
+          "name":"Acmero Ltd",
+          "text":"Компания из Гонконга",
+          "type":"company",
+          "img":"icons/svg/hongkong.svg"
+       
+ },
+       {
+          "id":4,
+          "name":"MP Enterprises Ltd",
+          "text":"Компания из Гибралтара",
+          "type":"company",
+          "img":"icons/svg/offshore.svg"
+       
+ },
+       {
+          "id":5,
+          "name":"Марк Омельницкий",
+          "text":"Номинальный директор из Великобритании",
+          "type":"person",
+          "img":"icons/svg/man.svg"
+       
+ },
+       {
+          "id":6,
+          "name":"MG Trust Company Ltd",
+          "text":"Компания из Новой Зеландии",
+          "type":"company",
+          "img":"icons/svg/new-zealand.svg"
+       
+ },
+       {
+          "id":7,
+          "name":"«Экоресурс»",
+          "text":"Оператор свалки в Александрове",
+          "type":"company",
+          "img":"icons/svg/ekoresurs.svg"
+       
+ },
+       {
+          "id":8,
+          "name":"Дмитрий Проценко",
+          "text":"Юрист компании И.Ротенберга",
+          "type":"person",
+          "img":"icons/svg/man.svg"
+       
+ },
+       {
+          "id":9,
+          "name":"«ЭнПиВи Инжиниринг»",
+          "text":"Холдинговая компания И.Ротенберга",
+          "type":"company",
+          "img":"icons/svg/firm.svg"
+       
+ },
+       {
+          "id":10,
+          "name":"Игорь Ротенберг",
+          "text":"Сын А.Ротенберга",
+          "type":"person",
+          "img":"icons/svg/man.svg"
+       
+ },
+       {
+          "id":11,
+          "name":"Аркадий Ротенберг",
+          "text":"Друг юности В.Путина",
+          "type":"person",
+          "img":"icons/svg/man.svg"
+       
+ },
+       {
+          "id":12,
+          "name":"Breckenridge Global Management Ltd",
+          "text":"Компания с Британских Виргинских о-вов",
+          "type":"company",
+          "img":"icons/svg/offshore.svg"
+       
+ },
+       {
+          "id":13,
+          "name":"Honeycomb Holdings Ltd",
+          "text":"Компания с Британских Виргинских о-вов",
+          "type":"company",
+          "img":"icons/svg/offshore.svg"
+       
+ },
+       {
+          "id":14,
+          "name":"Roseport Overseas Ltd",
+          "text":"Компания с Британских Виргинских о-вов",
+          "type":"company",
+          "img":"icons/svg/offshore.svg"
+       
+ }
+    
+ ],
+    "edges":[
+       {
+          "source":1,
+          "target":0,
+          "connection":"99%"
+       
+ },
+       {
+          "source":2,
+          "target":1,
+          "connection":"100%"
+       
+ },
+       {
+          "source":3,
+          "target":2,
+          "connection":"50%"
+       
+ },
+       {
+          "source":4,
+          "target":3,
+          "connection":"100%"
+       
+ },
+       {
+          "source":5,
+          "target":3,
+          "connection":"директор"
+       
+ },
+       {
+          "source":6,
+          "target":4,
+          "connection":"100%"
+       
+ },
+       {
+          "source":5,
+          "target":6,
+          "connection":"100%"
+       
+ },
+       {
+          "source":1,
+          "target":7,
+          "connection":"99%"
+       
+ },
+       {
+          "source":8,
+          "target":4,
+          "connection":"экс-директор"
+       
+ },
+       {
+          "source":8,
+          "target":9,
+          "connection":"сотрудник"
+       
+ },
+       {
+          "source":10,
+          "target":9,
+          "connection":"владелец"
+       
+ },
+       {
+          "source":11,
+          "target":10,
+          "connection":"отец"
+       
+ },
+       {
+          "source":5,
+          "target":12,
+          "connection":"представитель"
+       
+ },
+       {
+          "source":5,
+          "target":13,
+          "connection":"представитель"
+       
+ },
+       {
+          "source":5,
+          "target":14,
+          "connection":"представитель"
+       
+ },
+       {
+          "source":11,
+          "target":12,
+          "connection":"экс-владелец"
+       
+ },
+       {
+          "source":11,
+          "target":13,
+          "connection":"экс-владелец"
+       
+ },
+       {
+          "source":11,
+          "target":14,
+          "connection":"экс-владелец"
+       
+ }
+
+ ]
+ }

@@ -1,0 +1,143 @@
+{
+    "nodes":[
+       {
+          "id":0,
+          "name":"«Сергиево-Посадский РО»",
+          "text":"Победитель торгов по вывозу мусора ",
+          "type":"company",
+          "img":"icons/svg/ekolain.svg"
+       
+ },
+       {
+          "id":1,
+          "name":"«УК Региональный оператор»",
+          "text":"Управляющая компания",
+          "type":"company",
+          "img":"icons/svg/firm.svg"
+       
+ },
+       {
+          "id":2,
+          "name":"«РТ-Инвест Финанс»",
+          "text":"Инвестиционная компания",
+          "type":"company",
+          "img":"icons/svg/firm.svg"
+       
+ },
+       {
+          "id":3,
+          "name":"«РТ-Инвест»",
+          "text":"Холдинговая компания",
+          "type":"company",
+          "img":"icons/svg/firm.svg"
+       
+ },
+       {
+          "id":4,
+          "name":"«Царицын Капитал»",
+          "text":"Компания из Москвы",
+          "type":"company",
+          "img":"icons/svg/firm.svg"
+       
+ },
+       {
+          "id":5,
+          "name":"Андрей Шипелов",
+          "text":"Основатель холдинга «РТ-Инвест»",
+          "type":"person",
+          "img":"icons/svg/man.svg"
+       
+ },
+       {
+          "id":6,
+          "name":"«Спецтранс»",
+          "text":"Конкурент на торгах",
+          "type":"company",
+          "img":"icons/svg/ekolain.svg"
+       
+ },
+       {
+          "id":7,
+          "name":"«Нефтегазэкопроект»",
+          "text":"Компания из Москвы",
+          "type":"company",
+          "img":"icons/svg/firm.svg"
+       
+ },
+       {
+          "id":8,
+          "name":"Екатерина Шипелова",
+          "text":"Жена А.Шипелова",
+          "type":"person",
+          "img":"icons/svg/woman.svg"
+       
+ }
+],
+    "edges":[
+       {
+          "source":1,
+          "target":0,
+          "connection":"50%"
+       
+ },
+       {
+          "source":2,
+          "target":1,
+          "connection":"67.11%"
+       
+ },
+       {
+          "source":3,
+          "target":2,
+          "connection":"25%"
+       
+ },
+       {
+          "source":4,
+          "target":3,
+          "connection":"35%"
+       
+ },
+       {
+          "source":5,
+          "target":2,
+          "connection":"75%"
+       
+ },
+       {
+          "source":5,
+          "target":4,
+          "connection":"100%"
+       
+ },
+       {
+          "source":5,
+          "target":3,
+          "connection":"директор"
+       
+ },
+       {
+          "source":7,
+          "target":6,
+          "connection":"85%"
+       
+ },
+       {
+          "source":3,
+          "target":7,
+          "connection":"80%"
+       
+ },
+       {
+          "source":8,
+          "target":7,
+          "connection":"20%"
+       
+ },
+       {
+          "source":5,
+          "target":8,
+          "connection":"супруги"
+       }
+   ]
+}

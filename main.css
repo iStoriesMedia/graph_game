@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Proto Grotesk';
+    src: local('☺️'),
+        url('https://static.istories.media/public/fonts/Proto Grotesk-Regular-Web.woff2') format('woff2'),
+        url('https://static.istories.media/public/fonts/Proto Grotesk-Regular-Web.woff') format('woff'),
+        url('https://static.istories.media/public/fonts/Proto Grotesk-Regular-Web.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Proto Grotesk';
+    src: local('☺️'),
+        url('https://static.istories.media/public/fonts/Proto Grotesk-Bold-Web.woff2') format('woff2'),
+        url('https://static.istories.media/public/fonts/Proto Grotesk-Bold-Web.woff') format('woff'),
+        url('https://static.istories.media/public/fonts/Proto Grotesk-Bold-Web.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+.line-group{
+    stroke: #99372e;
+    stroke-width: 1.3px;
+}
+.markerClass{
+    fill: #99372e;
+}
+.clear-button{
+    font: normal 14px "Proto Grotesk";
+    fill: #a2a2a2;
+    cursor: pointer;
+}
+.labelClass{
+    width: 60px;
+    height: 12px;
+    fill: #99372e;
+}
+.textLabel{
+    font: normal 8px "Proto Grotesk";
+    fill: #ffffff;
+}
+.nodesLabel{
+    font: bold 12px "Proto Grotesk";
+}
+
+.nodesLabelText{
+    font: normal 10px "Proto Grotesk";
+    fill: #a2a2a2;
+}
+
+.zoomButton {
+    padding: 3px;
+    fill: #a2a2a2;
+    cursor: pointer;
+}

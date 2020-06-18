@@ -1,0 +1,129 @@
+{
+   "nodes":[
+      {
+         "id":0,
+         "name":"«Экосити»",
+         "text":"Мусорный оператор во 2-й и 4-й зонах",
+         "type":"company",
+         "img":"icons/svg/ekolain.svg"
+      
+},
+      {
+         "id":1,
+         "name":"«Экосервис»",
+         "text":"Оператор в 3-й зоне",
+         "type":"company",
+         "img":"icons/svg/ekolain.svg"
+      
+},
+      {
+         "id":2,
+         "name":"«Спецтранс»",
+         "text":"Оператор в 1-й зоне",
+         "type":"company",
+         "img":"icons/svg/ekolain.svg"
+      
+},
+      {
+         "id":3,
+         "name":"«Сервиском»",
+         "text":"Компания из Боровичей",
+         "type":"company",
+         "img":"icons/svg/firm.svg"
+      
+},
+      {
+         "id":4,
+         "name":"«Мехуборка»",
+         "text":"Компания из Великого Новгорода",
+         "type":"company",
+         "img":"icons/svg/firm.svg"
+      
+},
+      {
+         "id":5,
+         "name":"Станислав Уткин",
+         "text":"Сын бывшего вице-мэра Великого Новгорода",
+         "type":"person",
+         "img":"icons/svg/man.svg"
+      
+},
+      {
+         "id":6,
+         "name":"Юрий Уткин",
+         "text":"Сын бывшего вице-мэра Великого Новгорода",
+         "type":"person",
+         "img":"icons/svg/man.svg"
+      
+},
+      {
+         "id":7,
+         "name":"Анатолий Комельков",
+         "text":"Совладелец мусорных компаний",
+         "type":"person",
+         "img":"icons/svg/man.svg"
+      
+},
+      {
+         "id":8,
+         "name":"Павел Комельков",
+         "text":"Совладелец мусорных компаний",
+         "type":"person",
+         "img":"icons/svg/man.svg"
+      
+}
+],
+   "edges":[
+      {
+         "source":5,
+         "target":0,
+         "connection":"59.98%"
+      
+},
+      {
+         "source":6,
+         "target":1,
+         "connection":"100% до 2019"
+      
+},
+      {
+         "source":7,
+         "target":2,
+         "connection":"100%"
+      
+},
+      {
+         "source":7,
+         "target":3,
+         "connection":"50%"
+      
+},
+      {
+         "source":8,
+         "target":3,
+         "connection":"25%"
+      
+},
+      {
+         "source":8,
+         "target":4,
+         "connection":"50% до 2016"
+      
+},
+      {
+         "source":6,
+         "target":4,
+         "connection":"100%"
+      },
+      {
+         "source":5,
+         "target":4,
+         "connection":"50% до 2016"
+      },
+      {
+         "source":5,
+         "target":6,
+         "connection":"братья"
+      }
+   ]
+}
